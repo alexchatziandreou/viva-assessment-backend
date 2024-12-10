@@ -1,0 +1,50 @@
+[
+  {
+    "ContainingType": "VivaProjectApi.Controllers.VivaProjectApiController",
+    "Method": "SecondLargestNumber",
+    "RelativePath": "api/VivaProjectApi",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "args",
+        "Type": "VivaProjectApi.Controllers.VivaProjectApiController\u002BRequestObj",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Int32",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "GetSecondLargestNumber"
+  },
+  {
+    "ContainingType": "VivaProjectApi.Controllers.VivaProjectApiController",
+    "Method": "GetCountries",
+    "RelativePath": "api/VivaProjectApi",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[VivaProjectApi.Services.VivaProjectService\u002BRestCountriesModel, VivaProjectApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "EndpointName": "GetCountries"
+  }
+]

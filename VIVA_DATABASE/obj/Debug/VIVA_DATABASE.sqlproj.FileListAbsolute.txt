@@ -1,0 +1,6 @@
+C:\Users\Christos\source\repos\VivaProjectApi\VIVA_DATABASE\bin\Debug\VIVA_DATABASE.dacpac
+C:\Users\Christos\source\repos\VivaProjectApi\VIVA_DATABASE\bin\Debug\VIVA_DATABASE.dll
+C:\Users\Christos\source\repos\VivaProjectApi\VIVA_DATABASE\bin\Debug\VIVA_DATABASE.pdb
+C:\Users\Christos\source\repos\VivaProjectApi\VIVA_DATABASE\obj\Debug\VIVA_DATABASE.sqlproj.AssemblyReference.cache
+C:\Users\Christos\source\repos\VivaProjectApi\VIVA_DATABASE\obj\Debug\VIVA_DATABASE.dll
+C:\Users\Christos\source\repos\VivaProjectApi\VIVA_DATABASE\obj\Debug\VIVA_DATABASE.pdb
