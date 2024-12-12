@@ -1922,11 +1922,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Christos\\source\\repos\\VivaProjectApi\\VivaProjectApi\\VivaProjectApi.csproj",
+      "projectUniqueName": "C:\\Users\\Christos\\source\\repos\\VivaProjectApi\\viva-assessment-backend\\VivaProjectApi\\VivaProjectApi.csproj",
       "projectName": "VivaProjectApi",
-      "projectPath": "C:\\Users\\Christos\\source\\repos\\VivaProjectApi\\VivaProjectApi\\VivaProjectApi.csproj",
+      "projectPath": "C:\\Users\\Christos\\source\\repos\\VivaProjectApi\\viva-assessment-backend\\VivaProjectApi\\VivaProjectApi.csproj",
       "packagesPath": "C:\\Users\\Christos\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Christos\\source\\repos\\VivaProjectApi\\VivaProjectApi\\obj\\",
+      "outputPath": "C:\\Users\\Christos\\source\\repos\\VivaProjectApi\\viva-assessment-backend\\VivaProjectApi\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

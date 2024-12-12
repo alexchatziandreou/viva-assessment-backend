@@ -1,17 +1,17 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Christos\\source\\repos\\VivaProjectApi\\",
+  "WorkspaceRootPath": "C:\\Users\\Christos\\source\\repos\\VivaProjectApi\\viva-assessment-backend\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1D2C9938-768E-4D99-BC46-4BEAC4EC43B5}|VivaProjectApi\\VivaProjectApi.csproj|c:\\users\\christos\\source\\repos\\vivaprojectapi\\vivaprojectapi\\services\\vivaprojectservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1D2C9938-768E-4D99-BC46-4BEAC4EC43B5}|VivaProjectApi\\VivaProjectApi.csproj|c:\\users\\christos\\source\\repos\\vivaprojectapi\\viva-assessment-backend\\vivaprojectapi\\services\\vivaprojectservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1D2C9938-768E-4D99-BC46-4BEAC4EC43B5}|VivaProjectApi\\VivaProjectApi.csproj|solutionrelative:vivaprojectapi\\services\\vivaprojectservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1D2C9938-768E-4D99-BC46-4BEAC4EC43B5}|VivaProjectApi\\VivaProjectApi.csproj|c:\\users\\christos\\source\\repos\\vivaprojectapi\\vivaprojectapi\\repositories\\vivaprojectrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1D2C9938-768E-4D99-BC46-4BEAC4EC43B5}|VivaProjectApi\\VivaProjectApi.csproj|c:\\users\\christos\\source\\repos\\vivaprojectapi\\viva-assessment-backend\\vivaprojectapi\\repositories\\vivaprojectrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1D2C9938-768E-4D99-BC46-4BEAC4EC43B5}|VivaProjectApi\\VivaProjectApi.csproj|solutionrelative:vivaprojectapi\\repositories\\vivaprojectrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1D2C9938-768E-4D99-BC46-4BEAC4EC43B5}|VivaProjectApi\\VivaProjectApi.csproj|c:\\users\\christos\\source\\repos\\vivaprojectapi\\vivaprojectapi\\controllers\\vivaprojectapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1D2C9938-768E-4D99-BC46-4BEAC4EC43B5}|VivaProjectApi\\VivaProjectApi.csproj|c:\\users\\christos\\source\\repos\\vivaprojectapi\\viva-assessment-backend\\vivaprojectapi\\controllers\\vivaprojectapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1D2C9938-768E-4D99-BC46-4BEAC4EC43B5}|VivaProjectApi\\VivaProjectApi.csproj|solutionrelative:vivaprojectapi\\controllers\\vivaprojectapicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -28,11 +28,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "VivaProjectService.cs",
-              "DocumentMoniker": "C:\\Users\\Christos\\source\\repos\\VivaProjectApi\\VivaProjectApi\\Services\\VivaProjectService.cs",
+              "DocumentMoniker": "C:\\Users\\Christos\\source\\repos\\VivaProjectApi\\viva-assessment-backend\\VivaProjectApi\\Services\\VivaProjectService.cs",
               "RelativeDocumentMoniker": "VivaProjectApi\\Services\\VivaProjectService.cs",
-              "ToolTip": "C:\\Users\\Christos\\source\\repos\\VivaProjectApi\\VivaProjectApi\\Services\\VivaProjectService.cs",
+              "ToolTip": "C:\\Users\\Christos\\source\\repos\\VivaProjectApi\\viva-assessment-backend\\VivaProjectApi\\Services\\VivaProjectService.cs",
               "RelativeToolTip": "VivaProjectApi\\Services\\VivaProjectService.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAACIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAFEAAAAAAAAAAAAYwFcAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-05T17:34:25.772Z",
               "IsPinned": true,
@@ -42,25 +42,27 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "VivaProjectRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Christos\\source\\repos\\VivaProjectApi\\VivaProjectApi\\Repositories\\VivaProjectRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Christos\\source\\repos\\VivaProjectApi\\viva-assessment-backend\\VivaProjectApi\\Repositories\\VivaProjectRepository.cs",
               "RelativeDocumentMoniker": "VivaProjectApi\\Repositories\\VivaProjectRepository.cs",
-              "ToolTip": "C:\\Users\\Christos\\source\\repos\\VivaProjectApi\\VivaProjectApi\\Repositories\\VivaProjectRepository.cs",
+              "ToolTip": "C:\\Users\\Christos\\source\\repos\\VivaProjectApi\\viva-assessment-backend\\VivaProjectApi\\Repositories\\VivaProjectRepository.cs",
               "RelativeToolTip": "VivaProjectApi\\Repositories\\VivaProjectRepository.cs",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAAwBQAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-08T11:43:25.919Z"
+              "WhenOpened": "2024-12-08T11:43:25.919Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "VivaProjectApiController.cs",
-              "DocumentMoniker": "C:\\Users\\Christos\\source\\repos\\VivaProjectApi\\VivaProjectApi\\Controllers\\VivaProjectApiController.cs",
+              "DocumentMoniker": "C:\\Users\\Christos\\source\\repos\\VivaProjectApi\\viva-assessment-backend\\VivaProjectApi\\Controllers\\VivaProjectApiController.cs",
               "RelativeDocumentMoniker": "VivaProjectApi\\Controllers\\VivaProjectApiController.cs",
-              "ToolTip": "C:\\Users\\Christos\\source\\repos\\VivaProjectApi\\VivaProjectApi\\Controllers\\VivaProjectApiController.cs",
+              "ToolTip": "C:\\Users\\Christos\\source\\repos\\VivaProjectApi\\viva-assessment-backend\\VivaProjectApi\\Controllers\\VivaProjectApiController.cs",
               "RelativeToolTip": "VivaProjectApi\\Controllers\\VivaProjectApiController.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAIA1wBsAAAApAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-05T17:24:52.481Z"
+              "WhenOpened": "2024-12-05T17:24:52.481Z",
+              "EditorCaption": ""
             }
           ]
         }

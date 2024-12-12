@@ -14,34 +14,35 @@ namespace VivaProjectApi.Services
         }
         public virtual int GetSecondLargestNumber(IEnumerable<int> listOfInt)
         {
-            int? highestNum = null;
-            int? secondHighestNum = null;
+            int highestNum = listOfInt.FirstOrDefault();
+            int secondHighestNum = listOfInt.FirstOrDefault();
 
             if (listOfInt != null)
             {
                 foreach (var num in listOfInt)
                 {
-                    if (highestNum == null || num > highestNum)
+                    if (num > highestNum)
                     {
-                        secondHighestNum = highestNum;d
+                        secondHighestNum = highestNum;
                         highestNum = num;
                     }
-                    else if (secondHighestNum == null || num > secondHighestNum && num < highestNum)
+                    else if (num > secondHighestNum && num < highestNum)
                     {
                         secondHighestNum = num;
                     }
                 }
             }
-            return secondHighestNum.Value;
+            return secondHighestNum;
         }
         public async Task<List<RestCountriesModel>> GetCountries()
         {
             var apiEndpoint = "https://restcountries.com/v3.1/all?fields=name,capital,borders,cca2";
             //Countries data exists on cache?
-            if (_repository.GetDataFromCache("countrieslist")==null)
+            if (_repository.GetDataFromCache("countrieslist") == null)
             {
                 //Countries data exists on Databse?
-                if (_repository.GetDataAsync()==null)
+                var countries = await _repository.GetDataAsync();
+                if (countries.Count() == 0)
                 {
                     using (var httpClient = new HttpClient())
                     {
@@ -52,10 +53,10 @@ namespace VivaProjectApi.Services
                             response.EnsureSuccessStatusCode();
                             string responseBody = await response.Content.ReadAsStringAsync();
                             var res = JsonConvert.DeserializeObject<List<RestCountriesModel>>(responseBody);
-                            if (res.Count() != 0)
+                            if (res.ToList().Count() != 0)
                             {
                                 //Save them to Cache and Database
-                                _repository.InsertDataAsync(res);
+                                _repository.InsertData(res);
                                 _repository.StoreDataInCache("countrieslist", res);
                             }
                             //Return data to the client
@@ -68,19 +69,39 @@ namespace VivaProjectApi.Services
                         }
                     }
                 }
+                else{
+                    _repository.StoreDataInCache("countrieslist",countries);
+                    return countries;
+
+                }
             }
-            return new List<RestCountriesModel>();
+            else
+            {
+                var countries = _repository.GetDataFromCache("countrieslist");
+                return countries;
+
+            }
+                return new List<RestCountriesModel>();
         }
-        public class CountryNameModel
+        public class Name
         {
-            public string common { get; set; }
+            public string? Common { get; set; }
+            public string? Official { get; set; }
         }
+
         public class RestCountriesModel
         {
-            public string cca2 { get; set; }
-            public CountryNameModel name { get; set; }
-            public List<string> capital { get; set; }
-            public List<string> borders { get; set; }
+            public Name? Name { get; set; }
+            public string? Cca2 { get; set; }
+            public List<string>? Capital { get; set; }
+            public List<string>? Borders { get; set; }
+        }
+        public class CountryDbModel
+        {
+            public string? Cca2 { get; set; }
+            public string? Name { get; set; }
+            public string? Borders { get; set; }
+            public string? Capitals { get; set; }
         }
 
     }

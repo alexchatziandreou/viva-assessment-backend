@@ -97,10 +97,14 @@
   },
   "components": {
     "schemas": {
-      "CountryNameModel": {
+      "Name": {
         "type": "object",
         "properties": {
           "common": {
+            "type": "string",
+            "nullable": true
+          },
+          "official": {
             "type": "string",
             "nullable": true
           }
@@ -124,12 +128,12 @@
       "RestCountriesModel": {
         "type": "object",
         "properties": {
+          "name": {
+            "$ref": "#/components/schemas/Name"
+          },
           "cca2": {
             "type": "string",
             "nullable": true
-          },
-          "name": {
-            "$ref": "#/components/schemas/CountryNameModel"
           },
           "capital": {
             "type": "array",

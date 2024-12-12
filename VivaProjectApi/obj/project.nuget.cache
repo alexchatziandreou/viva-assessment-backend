@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "MHpIi4g5fWA=",
+  "dgSpecHash": "LGp/eQqOnFw=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Christos\\source\\repos\\VivaProjectApi\\VivaProjectApi\\VivaProjectApi.csproj",
+  "projectFilePath": "C:\\Users\\Christos\\source\\repos\\VivaProjectApi\\viva-assessment-backend\\VivaProjectApi\\VivaProjectApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Christos\\.nuget\\packages\\dapper\\2.1.35\\dapper.2.1.35.nupkg.sha512",
     "C:\\Users\\Christos\\.nuget\\packages\\entityframework\\6.5.1\\entityframework.6.5.1.nupkg.sha512",

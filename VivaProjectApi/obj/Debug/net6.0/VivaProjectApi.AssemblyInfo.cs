@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("VivaProjectApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3ae1fa48d9cc5fe6ae4913c885bde2958842e02b")]
 [assembly: System.Reflection.AssemblyProductAttribute("VivaProjectApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("VivaProjectApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

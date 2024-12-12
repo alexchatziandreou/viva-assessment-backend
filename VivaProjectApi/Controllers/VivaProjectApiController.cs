@@ -30,7 +30,7 @@ namespace VivaProjectApi.Controllers
         }
         public class RequestObj
         {
-            public IEnumerable<int> RequestArrayObj { get; set; }
+            public IEnumerable<int>? RequestArrayObj { get; set; }
         }
     }
 }
